@@ -7,7 +7,7 @@ const ConnectWallet = () => {
 
   return (
     <>
-      {account ? (
+      {account && account.address ? (
         <span>{account.address}</span>
       ) : (
         <button
